@@ -69,6 +69,54 @@ body{
 /* discount styles end */
 
 /* midnight party styles start */
+.midnight{
+    max-width: 1600px;
+    margin: 50px 120px;
+}
+.midnight-banner{
+    display: flex;
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),
+     url(../images/Vectorrr.png);
+     background-repeat: no-repeat;
+     border-radius: 16px;
+}
+.midnight-title{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    padding-top: 80px;
+    padding-left: 126px;
+}
+.midnight-info{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    max-width: 697px;
+    /* padding-top: 24px; */
+    padding-bottom: 48px;
+    padding-left: 126px;
+    
+}
+.midnight-btn{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    background: none;
+    padding-left: 148px;
+    padding-bottom: 80px;
+}
+
+
 /* midnight party styles end */
 
 /* location styles start */
