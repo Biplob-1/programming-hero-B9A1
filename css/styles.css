@@ -8,6 +8,14 @@ body{
     background: #FFF;
     width: 100%;   
 }
+.flex-center{
+    display: flex;
+    align-items: center;  
+}
+.max-width-margin{
+    max-width: 1600px;
+    margin: 120px;
+}
 
 
 /* header styles start */
@@ -15,8 +23,6 @@ body{
     position: relative;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/Banner-Image.png);
     background-size: 100% 100%;
-    max-width: 1600px;
-    margin: 120px;
     height: 600px;
     margin: 50px 120px;
     border-radius: 16px;
@@ -43,8 +49,6 @@ body{
 
                             /* discount styles start */
 .discount-area{
-    max-width: 1600px;
-    margin: 120px;
     text-transform: uppercase;
     text-align: center;
     font-family: Inter;
@@ -74,10 +78,6 @@ body{
 
 
                             /* midnight party styles start */
-.midnight{
-    max-width: 1600px;
-    margin: 120px;
-}
 .midnight-banner{
     display: flex;
     background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),
@@ -117,12 +117,14 @@ body{
     background: none;
     padding-left: 148px;
     padding-bottom: 40px;
+    cursor: pointer;
+}
+.midnight-btn:hover{
+    color: #f03;
 }
 
                             /* comming soon area start */
 .comming-soon{
-    max-width: 1600px;
-    margin: 120px;
     background: rgba(255, 0, 0, 0.05);  
     border-radius: 16px;
     display: flex;
@@ -171,8 +173,6 @@ body{
 
                             /* location styles start */
 .location-area{
-    max-width: 1600px;
-    margin: 120px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -227,8 +227,6 @@ body{
 
                             /* holiday styles start */
 .holiday{
-    max-width: 1600px; 
-    margin: 120px;
     background: rgba(255, 0, 0, 0.05);  
     border-radius: 16px;
 }
@@ -293,8 +291,6 @@ body{
 
                             /* portfolio styles start */
 .portfolio{
-    max-width: 1600px; 
-    margin: 120px;
     background: rgba(255, 0, 0, 0.05);  
     border-radius: 16px;
 }
@@ -337,8 +333,6 @@ body{
 
                             /* newsletter styles start */
 .newsletter{
-    max-width: 1320px;
-    margin: 120px;
     background: rgba(255, 0, 0, 0.05);  
     border-radius: 16px;
 }
@@ -391,6 +385,9 @@ body{
     border-radius: 30px;
     cursor: pointer;
 }
+.subscribe-button:hover{
+    background: #f03;
+}
 
                             /*footer area styles start*/
 .footer-area{
@@ -403,40 +400,42 @@ body{
     justify-content: space-between;
     align-items: center;  
 }
-.phone{
+.flex-center{
     display: flex;
-    justify-content: space-between;
     align-items: center;  
 }
-.website{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;  
-}
-.phone img{
+.flex-center img{
     max-width: 24px;
     max-height: 24px;
+    cursor: pointer;
 }
-.phone p{
+.flex-center p{
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
     line-height: 40px;
     margin-left: 10px;
     color: #FFF;
+    cursor: pointer;
 }
-.website img{
+.flex-center img{
     max-width: 24px;
     max-height: 24px;
     margin-right: 10px;
+    cursor: pointer;
 }
-.website p{
+.flex-center a{
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
     line-height: 40px;
     color: #FFF;
-}
+    cursor: pointer;
+    text-decoration: none;
+} 
+.flex-center a:hover{
+    color: green;
+} 
 .large-text{
     max-width: 60%;
     font-family: Inter;
@@ -456,6 +455,11 @@ body{
     max-width: 64px;
     max-height: 64px;
     padding: 24px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+.social-icon:hover {
+    transform: scale(1.1);
 }
 .cpoy-right-text{
     font-family: Inter;
@@ -470,6 +474,10 @@ body{
     font-weight: 500;
     background: #070211;
     border: none;
+    cursor: pointer;
+}
+.copy-right-column button:hover{
+    color: #f03;
 }
 
 .footer-cpoy-right{
