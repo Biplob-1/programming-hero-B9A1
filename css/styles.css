@@ -10,16 +10,16 @@ body{
 }
 
 
-/* header styles */
+/* header styles start */
 .header-area{
     position: relative;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/Banner-Image.png);
     background-size: 100% 100%;
-    max-width: 1320px;
+    max-width: 1600px;
+    margin: 120px;
     height: 600px;
-    margin: 50px 140px;
+    margin: 50px 120px;
     border-radius: 16px;
-
 }
 .header-title{
     text-align: center;
@@ -40,14 +40,19 @@ body{
 .header-info-text{
     display: block;
 }
-/* discount styles start */
+
+                            /* discount styles start */
 .discount-area{
     max-width: 1600px;
+    margin: 120px;
     text-transform: uppercase;
     text-align: center;
     font-family: Inter;
+    background: rgba(255, 0, 0, 0.05);  
+    border-radius: 16px;
 }
 .discount-title{
+    padding-top: 30px;
     color: #F00;
     font-size: 88px;
     font-weight: 700;
@@ -63,15 +68,15 @@ body{
     font-weight: 700;
 }
 .New-Year-Photo{
-    max-width: 902px;
-    /* position: relative; */
+    width: 100%;
+    padding-bottom: 20px;
 }
-/* discount styles end */
 
-/* midnight party styles start */
+
+                            /* midnight party styles start */
 .midnight{
     max-width: 1600px;
-    margin: 50px 120px;
+    margin: 120px;
 }
 .midnight-banner{
     display: flex;
@@ -97,10 +102,8 @@ body{
     font-weight: 400;
     line-height: 30px;
     max-width: 697px;
-    /* padding-top: 24px; */
     padding-bottom: 48px;
-    padding-left: 126px;
-    
+    padding-left: 126px;   
 }
 .midnight-btn{
     color: #FFF;
@@ -113,20 +116,17 @@ body{
     outline: none;
     background: none;
     padding-left: 148px;
-    padding-bottom: 80px;
+    padding-bottom: 40px;
 }
 
-
-/* midnight party styles end */
-
-/* comming soon area start */
+                            /* comming soon area start */
 .comming-soon{
     max-width: 1600px;
     margin: 120px;
-    background-color: aqua;
+    background: rgba(255, 0, 0, 0.05);  
+    border-radius: 16px;
     display: flex;
     align-items: center;
-    /* justify-content: space-around; */
 }
 .coloum-one, h3{
     color: #F00;
@@ -168,27 +168,23 @@ body{
     font-weight: 400;
     line-height: 32px;
 }
-/* comming soon area start */
 
-/* location styles start */
+                            /* location styles start */
 .location-area{
-    max-width: 1320px;
+    max-width: 1600px;
+    margin: 120px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 50px;
+    background: rgba(255, 0, 0, 0.05);  
+    border-radius: 16px;
 }
-.location {
+ .location {
     margin: 100px auto 18px;
-}
-.location-area-content {
-    display: flex;
-    /* align-items: center; */
-    margin-bottom: 10px;
-}
+} 
+
 
 .label-heading {
-    /* margin-right: 10px; */
     color: #F00;
     text-align: center;
     font-family: Inter;
@@ -211,6 +207,7 @@ body{
 }
 
 .btn-join input{
+    width: 150px;
     color: #FFF;
     text-align: center;
     font-family: Inter;
@@ -219,24 +216,30 @@ body{
     text-transform: uppercase;
     border-radius: 8px;
     background: #F00;
-    padding: 16px 32px;
     border: none;
     margin-bottom: 90px;
+    cursor: pointer;
+}
+.btn-join input:hover{
+    background: #f03;
 }
 
-/* location styles end */
-/* holiday styles start */
+
+                            /* holiday styles start */
 .holiday{
     max-width: 1600px; 
     margin: 120px;
-    /* background-color:yellowgreen; */
+    background: rgba(255, 0, 0, 0.05);  
+    border-radius: 16px;
 }
-.holifday-name{
+.holiday-name{
+    padding-top: 30px;
     color: #070211;
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
     text-align: center;
+    text-transform: uppercase;
 }
 .holiday-title{
     color: #F00;
@@ -258,6 +261,12 @@ body{
     font-size: 20px;
     font-weight: 500;
     line-height: 32px;
+}
+.readmore{
+    font-family: Inter;
+    font-style: italic;
+    cursor: pointer;
+    font-weight: 700;
 }
 .image-area-holiday{
     display: flex;
@@ -281,17 +290,21 @@ body{
     height: 200px;
     border-radius: 16px 0px 16px 16px;
 }
-/* holiday styles end */
-/* portfolio styles start */
+
+                            /* portfolio styles start */
 .portfolio{
     max-width: 1600px; 
     margin: 120px;
+    background: rgba(255, 0, 0, 0.05);  
+    border-radius: 16px;
 }
 .portfolio-name{
+    padding-top: 30px;
     color: #F00;
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
+    text-transform: uppercase;
 }
 .portfolio-title{
     color: #070211;
@@ -317,15 +330,12 @@ body{
     max-height: 450px;
     margin: 20px;
     cursor: pointer;
-    /* border: 1px solid black; */
 }
 .gallery img {
     width: 100%;   
 }
 
-
-/* portfolio styles end */
-/* newsletter styles start */
+                            /* newsletter styles start */
 .newsletter{
     max-width: 1320px;
     margin: 120px;
@@ -362,7 +372,6 @@ body{
     width: 70%;
     border-radius: 50px;
 }
-
 .email-submit, input[email="text"]::placeholder {
     color: rgba(7, 2, 17, 0.30);
     text-align: center;
@@ -370,11 +379,9 @@ body{
     font-size: 18px;
     font-weight: 400;
 }
-
 .email-input {
     font-size: 28px;   
 }
-
 .subscribe-button {
     padding: 20px;
     height: 62px;
@@ -384,14 +391,11 @@ body{
     border-radius: 30px;
     cursor: pointer;
 }
-/* newsletter styles end */
 
-/*footer area styles start*/
+                            /*footer area styles start*/
 .footer-area{
     max-width: 1600px;
-    /* height: 609px; */
     background: #070211;
-    color: #FFF;
     padding: 120px 140px;
 }
 .footer-info{
@@ -419,6 +423,7 @@ body{
     font-weight: 500;
     line-height: 40px;
     margin-left: 10px;
+    color: #FFF;
 }
 .website img{
     max-width: 24px;
@@ -430,6 +435,7 @@ body{
     font-size: 24px;
     font-weight: 500;
     line-height: 40px;
+    color: #FFF;
 }
 .large-text{
     max-width: 60%;
@@ -438,6 +444,7 @@ body{
     font-weight: 500;
     line-height: 40px;
     overflow-wrap: break-word;
+    color: #FFF;
 }
 
 .footer-social-media {
@@ -454,6 +461,7 @@ body{
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
+    color: #FFF;
 }
 .copy-right-column button{
     color: #FFF;
@@ -477,4 +485,3 @@ hr {
     border: none;
 }
 
-/*footer area styles end*/
