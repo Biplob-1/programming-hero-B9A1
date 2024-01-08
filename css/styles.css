@@ -119,6 +119,57 @@ body{
 
 /* midnight party styles end */
 
+/* comming soon area start */
+.comming-soon{
+    max-width: 1600px;
+    margin: 120px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+}
+.coloum-one, h3{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+.coloum-one, h1{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+.coloum-one, p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.colum-two, img{
+    max-width: 463px;
+    padding-right: 20px;
+}
+.colum-three, h1{
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 70px;
+}
+.colum-three, p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+/* comming soon area start */
+
 /* location styles start */
 .location-area{
     max-width: 1320px;
