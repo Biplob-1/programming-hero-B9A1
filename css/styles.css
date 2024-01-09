@@ -32,7 +32,7 @@ body{
     font-family: Merriweather;
     font-size: 32px;
     color:#FFF;
-    padding-top: 130px;
+    padding-top: 120px;
     font-weight: 400;
 }
 .header-info{
@@ -85,6 +85,7 @@ body{
      border-radius: 16px;
 }
 .midnight-title{
+    text-align: left;
     color: #FFF;
     font-family: Merriweather;
     font-size: 64px;
