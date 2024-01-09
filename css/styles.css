@@ -135,6 +135,11 @@ body{
     display: flex;
     align-items: center;
 }
+.comming-soon > div {
+    flex: 1;
+    padding: 10px;
+}
+
 .coloum-one, h3{
     color: #F00;
     text-align: center;
@@ -156,13 +161,14 @@ body{
     font-weight: 400;
     line-height: 32px;
 }
-
-.colum-two, ellipse{
-    /* max-width: 463px;
-    padding-right: 20px; */
+.ellipse{
     max-width: 463px;
-    border-radius: 231px;
     border: 15px solid #f00;
+    padding: 15px;
+    background: white;
+    display: inline-block;
+    /* border-radius: 231px; */
+    border-radius: 50%;
 }
 
 .colum-three, h1{
@@ -179,6 +185,7 @@ body{
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
+    text-align: start;
 }
 
                             /* location styles start */
