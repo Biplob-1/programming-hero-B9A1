@@ -305,6 +305,10 @@ body{
 .botto-image img {
     max-width: 100%;
 }
+.popcorn{
+    position: relative;
+    top: 125px;
+}
 .side-image{
     background-image: url(../images/Rectangle1.png);
     background-repeat: no-repeat;
@@ -453,6 +457,9 @@ body{
     margin-left: 10px;
     color: #FFF;
     cursor: pointer;
+}
+.flex-center p:hover{
+    color: green;
 }
 .flex-center img{
     max-width: 24px;
