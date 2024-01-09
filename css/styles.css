@@ -133,28 +133,30 @@ body{
     background: rgba(255, 0, 0, 0.05);  
     border-radius: 16px;
     display: flex;
-    align-items: center;
+    /* align-items: center; */
 }
 .comming-soon > div {
     flex: 1;
-    padding: 10px;
+    /* padding: 10px; */
 }
 
-.coloum-one, h3{
+.coming-soon-name{
     color: #F00;
     text-align: center;
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
+    text-align: start;
 }
-.coloum-one, h1{
+.coming-soon-title{
     color: #070211;
     font-family: Merriweather;
     font-size: 48px;
     font-weight: 900;
     text-transform: capitalize;
+    text-align: start;
 }
-.coloum-one, p{
+.coming-soon-info{
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
@@ -170,22 +172,31 @@ body{
     /* border-radius: 231px; */
     border-radius: 50%;
 }
+.colum-two{
+    padding: 10px;
+}
 
-.colum-three, h1{
+.colum-three-title{
     color: #F00;
     font-family: Inter;
     font-size: 48px;
     font-weight: 700;
-    text-align: center;
-    margin-top: 70px;
+    text-align: start;
+    /* margin-top: 70px; */
 }
-.colum-three, p{
+.colum-three-info{
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
     text-align: start;
+}
+.colum-three-image{
+    align-items: start;
+}
+.colum-one , .colum-three{
+    padding-top: 50px;
 }
 
                             /* location styles start */
