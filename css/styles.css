@@ -408,7 +408,8 @@ body{
     font-weight: 400;
 }
 .email-input {
-    font-size: 28px;   
+    font-size: 28px; 
+    border: none;  
 }
 .subscribe-button {
     padding: 21px;
